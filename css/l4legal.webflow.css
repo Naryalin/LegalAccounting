@@ -188,7 +188,6 @@ blockquote {
 
 .container.hero {
   background-color: var(--white);
-  height: 800px;
   padding-top: 140px;
   padding-bottom: 95px;
 }
@@ -386,6 +385,7 @@ blockquote {
 .paragraph.white-dull {
   color: #fffc;
   width: 650px;
+  padding-right: 20px;
   font-weight: 600;
 }
 
@@ -2535,7 +2535,7 @@ blockquote {
   }
 
   .paragraph.white-dull {
-    width: 700px;
+    width: auto;
     position: static;
   }
 
@@ -3338,10 +3338,6 @@ blockquote {
     flex-flow: column;
   }
 
-  .service-section-image {
-    display: none;
-  }
-
   .image-14 {
     top: 569px;
     left: 313px;
@@ -3414,7 +3410,7 @@ blockquote {
     width: 80%;
   }
 
-  .heading-h1 {
+  .content-wrapper.hero .heading-h1 {
     top: 151px;
   }
 
@@ -3464,6 +3460,11 @@ blockquote {
   }
 
   .content-wrapper.hero .paragraph.narrow {
+    top: 111px;
+  }
+
+  .content-wrapper.hero .paragraph{
+    position: relative;
     top: 111px;
   }
 
