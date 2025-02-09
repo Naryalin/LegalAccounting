@@ -187,6 +187,8 @@ blockquote {
 }
 
 .container.hero {
+  display: flex;
+  flex-direction: row;
   background-color: var(--white);
   padding-top: 140px;
   padding-bottom: 95px;
@@ -1697,11 +1699,12 @@ blockquote {
   background-color: var(--white);
   justify-content: center;
   align-items: center;
-  width: 45%;
-  margin-top: 35px;
+  width: 100%;
+  height: 100%;
+  margin-top: 36px;
   padding: 40px;
   display: flex;
-  position: absolute;
+  position: relative;
   inset: 0% 0% auto auto;
   box-shadow: 0 16px 60px #0000001a;
 }
@@ -1734,7 +1737,6 @@ blockquote {
   grid-row-gap: var(--smallest-gap);
   flex-flow: column;
   width: 265px;
-  margin-left: -87px;
   display: flex;
 }
 
@@ -2266,10 +2268,14 @@ blockquote {
   background-color: #fff;
 }
 
+.contact-form-info{
+  height: 100%;
+}
+
 .image-17 {
-  width: 55%;
+  width: 100%;
   position: relative;
-  top: 36px;
+  top: -36px;
 }
 
 .div-block-6 {
@@ -2895,10 +2901,13 @@ blockquote {
   }
 
   .image-17 {
-    width: 56.6%;
     display: block;
     position: relative;
     top: 35px;
+  }
+
+  .form-wrapper{
+    margin-top: 35px;
   }
 
   .link-block {
@@ -3344,8 +3353,10 @@ blockquote {
   }
 
   .image-17 {
-    width: 70%;
     top: 78px;
+  }
+  .form-wrapper{
+    margin-top: 78px;
   }
 
   .italic-text-2 {
@@ -3698,12 +3709,13 @@ blockquote {
 
   .horizontal-wrap {
     flex-flow: column;
+    width: 100%;
   }
 
   .form-wrapper {
     width: 100%;
     margin-top: 40px;
-    position: static;
+    position: relative;
   }
 
   .blog-big-image {
