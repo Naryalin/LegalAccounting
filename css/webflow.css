@@ -1583,6 +1583,7 @@ textarea.w-select {
 .w-nav-brand {
   position: relative;
   float: left;
+  top: -11px;
   text-decoration: none;
   color: #333333;
 }
@@ -1647,13 +1648,14 @@ textarea.w-select {
 .w-nav[data-animation='over-right'] [data-nav-menu-open] {
   left: auto;
   z-index: 1;
-  top: 0;
+  top: 1.375%;
 }
 .w-nav-button {
   position: relative;
   float: right;
   padding: 18px;
   font-size: 24px;
+  z-index: 0;
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1687,6 +1689,7 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse='medium'] .w-nav-button {
+    z-index: 2;
     display: block;
   }
 }
@@ -1755,6 +1758,11 @@ textarea.w-select {
 }
 .w--tab-active {
   display: block;
+}
+@media screen and (max-width: 405px) {
+  .w-tab-menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 479px) {
   .w-tab-link {
