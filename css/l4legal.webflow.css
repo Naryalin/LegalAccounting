@@ -541,7 +541,7 @@ blockquote {
 .heading-h2 {
   color: var(--accent-color);
   font-variation-settings: "wght" 350;
-  width: 1000px;
+  width: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
@@ -2605,7 +2605,7 @@ blockquote {
   }
 
   .heading-h2 {
-    width: 900px;
+    width: auto;
     position: static;
     top: 7px;
     left: 286px;
@@ -3535,7 +3535,7 @@ blockquote {
   }
 
   .heading-h2 {
-    width: 90%;
+    width: auto;
     font-size: 28px;
   }
 
@@ -3988,7 +3988,7 @@ blockquote {
   }
 
   .heading-h2 {
-    width: 98%;
+    width: auto;
     font-size: 26px;
   }
 
