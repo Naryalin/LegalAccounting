@@ -263,10 +263,6 @@ blockquote {
   width: 80%;
 }
 
-.title-wrapper.narrow {
-  width: 50%;
-}
-
 .heading-h1 {
   z-index: 40;
   color: var(--bg-color);
@@ -723,6 +719,7 @@ blockquote {
   grid-row-gap: 8px;
   color: var(--separator-color);
   flex-flow: column;
+  height: 100%;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 20px;
@@ -3444,10 +3441,6 @@ blockquote {
     position: relative;
   }
 
-  .paragraph {
-    width: 70%;
-  }
-
   .paragraph.about-us {
     width: auto;
   }
@@ -3931,7 +3924,6 @@ blockquote {
     flex: 0 auto;
     order: 0;
     align-self: auto;
-    width: 60%;
     display: flex;
   }
 
