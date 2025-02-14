@@ -200,7 +200,7 @@ blockquote {
   display: flex;
   flex-direction: row;
   background-color: var(--white);
-  padding-top: 140px;
+  padding-top: 175px;
   padding-bottom: 95px;
 }
 
@@ -1696,7 +1696,7 @@ blockquote {
 
 .horizontal-wrap {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   position: relative;
 }
@@ -2282,7 +2282,6 @@ blockquote {
 .image-17 {
   width: 100%;
   position: relative;
-  top: -36px;
 }
 
 .div-block-6 {
@@ -2440,6 +2439,11 @@ blockquote {
     background-color: var(--white);
     padding: 95px 120px 91px;
     top: 0;
+  }
+
+  .content-wrapper.narrow.right-align {
+    position: relative;
+    top: -120px
   }
 
   .container.home-hero {
@@ -2909,7 +2913,6 @@ blockquote {
   .image-17 {
     display: block;
     position: relative;
-    top: 35px;
   }
 
   .form-wrapper{
@@ -3357,10 +3360,7 @@ blockquote {
     top: 569px;
     left: 313px;
   }
-
-  .image-17 {
-    top: 78px;
-  }
+  
   .form-wrapper{
     margin-top: 78px;
   }
