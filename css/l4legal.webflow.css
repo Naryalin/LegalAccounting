@@ -1339,10 +1339,22 @@ blockquote {
   color: var(--accent-color);
 }
 
-.footer-column.first,
-.footer-column.first .footers-info-wrapper {
+.footer-column.first {
+  width: 30%;
   text-align: left;
+}
+
+.footer-column.first .footers-info-wrapper {
+  justify-content: flex-start;
   align-items: flex-start;
+  text-align: left;
+}
+
+.footer-column.first .footer-title,
+.footer-column.first .footer-info {
+  display: block;
+  width: 100%;
+  text-align: left;
 }
 
 .footer-nawigation-wrap {
