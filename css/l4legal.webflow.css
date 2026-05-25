@@ -1325,7 +1325,7 @@ blockquote {
 
 .footer-info {
   color: var(--paragraph-color);
-  text-align: center;
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -1337,6 +1337,12 @@ blockquote {
 
 .footer-info:hover {
   color: var(--accent-color);
+}
+
+.footer-column.first,
+.footer-column.first .footers-info-wrapper {
+  text-align: left;
+  align-items: flex-start;
 }
 
 .footer-nawigation-wrap {
